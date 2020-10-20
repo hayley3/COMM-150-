@@ -3,7 +3,7 @@ h1 {
     margin-bottom: 50px;
     margin-right: 95px;
     margin-left: 95px;
-    font-size: 64px;
+    font-size: 58px;
     white-space: nowrap;
     font-family: 'Bitter', serif;
   }
@@ -14,7 +14,11 @@ h1 {
 
 
   div.h1Positions { 
-      position: absolute; top: 50px; left: 100px; right: 100px; 
+      position: absolute; 
+      top: 50px; 
+      left: 100px; 
+      width: 1300px; 
+      height: 60px;
       background-color: #729CA2;
   }
 
@@ -31,8 +35,8 @@ div.absolute1 {
     position: absolute;
     top: 150px;
     left: 100px;
-    width: 350px;
-    height: 600px;
+    width: 250px;
+    height: 520px;
     margin-bottom: 100px;
     background-color:  #FFB266;
 }
@@ -40,28 +44,28 @@ div.absolute1 {
 div.absolute2 { 
     position: absolute;
     top: 150px;
-    left: 500px;
-    height: 600px;
-    width: 1195px;
+    left: 400px;
+    height: 520px;
+    width: 1000px;
     background-color: #C4DCDF ;
 }
 
 div.absolute3 { 
     position: absolute;
-    top: 800px;
+    top: 720px;
     left: 100px;
-    height: 600px;
-    width: 1195px;
+    height: 500px;
+    width: 1000px;
     margin-bottom: 100px; 
     background-color: #729CA2 ;
 }
 
 div.absolute4 {
     position: absolute;
-    top: 800px;
-    left: 1350px; 
-    width: 348px;
-    height: 600px;
+    top: 720px;
+    left: 1150px; 
+    width: 250px;
+    height: 500px;
     margin-bottom: 100px;
     background-color:  #FFB266;
 }
@@ -88,14 +92,6 @@ table {
     overflow: hidden;
 }
 
-#leaf_img { 
-    position: absolute; 
-    top: 800px;
-    left: 100px;
-    right: 100px; 
-    height: 100px;
-    bottom: 50px; 
-}
 
 div.column { 
     float: left; 
