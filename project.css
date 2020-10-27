@@ -6,6 +6,8 @@ h1 {
     font-size: 58px;
     white-space: nowrap;
     font-family: 'Bitter', serif;
+    color: #345257; 
+
   }
 
   a{ 
@@ -29,6 +31,7 @@ h1 {
     margin-left: 10px;
     white-space: nowrap;
     font-family: 'Bitter', serif;
+    color: #345257; 
   }
 
 div.absolute1 {
