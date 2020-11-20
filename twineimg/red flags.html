@@ -90,32 +90,35 @@ Now you find yourself deciding what to ask yourself next:
 (live: 2s) [
     [[why didn&#39;t you listen to your mom&#39;s warnings of stranger danger?]] 
 ] }
-</tw-passagedata><tw-passagedata pid="3" name="why didn&#39;t you delete his number after?" tags="cement" position="1103,900" size="100,100">He was so charming at first. Complementing your eyes, hair, and outfits- something your ex had never done. It was refreshing to have a man seem as thought he was actually paying attention to you. Sure he barely offered any information about himself, but it didn&#39;t matter because you could talk about yourself for hours. You thought it was endearing rather than an issue since deflecting your questions was so easy for him. (set: $delete to $delete + 2) 
+</tw-passagedata><tw-passagedata pid="3" name="why didn&#39;t you delete his number after?" tags="cement" position="1103,901.6666666666666" size="100,100">He was so charming at first. Complementing your eyes, hair, and outfits- something your ex had never done. It was refreshing to have a man seem as thought he was actually paying attention to you. Sure he barely offered any information about himself, but it didn&#39;t matter because you could talk about yourself for hours. You thought it was endearing rather than an issue since deflecting your questions was so easy for him. (set: $delete to $delete + 2) 
 
 He kept offering to take you out and how could you begin to say no? 
 
-Do you keep asking yourself [[why didn&#39;t you know his charm was too good to be true?]] 
- 
+{(if: $charm &lt; 1) [Do you keep asking yourself [[why didn&#39;t you know his charm was too good to be true?]] 
+
+]} 
 Or do you forgive yourself for being a heartbroken girl looking for attention and turn to [[the issues that developed later]] 
-</tw-passagedata><tw-passagedata pid="4" name="why didn&#39;t you know his charm was too good to be true?" tags="cement" position="1357.6666666666667,1038" size="100,100">He had all the same interests as you and he was employeed. There were no flaws! It turned out he didn&#39;t work more than five blocks away which made coffee and lunch dates convenient. You saw his passion talking about his job and how he had a plan for how to be promoted through the company for more authority. It was charming to see a man with such drive. 
+</tw-passagedata><tw-passagedata pid="4" name="why didn&#39;t you know his charm was too good to be true?" tags="cement" position="1357.6666666666667,1038" size="100,100">He had all the same interests as you and he was employeed. There were no flaws! It turned out he didn&#39;t work more than five blocks away which made coffee and lunch dates convenient. You saw his passion talking about his job and how he had a plan for how to be promoted through the company for more authority. It was charming to see a man with such drive. (set: $charm to $charm + 2)
 
 You think now about how that passion was a facade for his constant need to amass more control over the various aspects of his life and yours. 
 {(if: $stranger &lt; 1)  [
 You curse internally asking: [[why didn&#39;t you listen to your mom&#39;s warnings of stranger danger?]] 
 ] } 
 
-As you think of crreative expletives you forget about being naive. You can&#39;t determine whether there were warnings from [[early in the relationship]] or if it&#39;s [[the issues that developed later]] that really should&#39;ve made you leave. </tw-passagedata><tw-passagedata pid="5" name="why didn&#39;t you listen to your mom&#39;s warnings of stranger danger?" tags="cement" position="1593,894" size="100,100">Your mother always told you as a child about stranger danger. You should&#39;ve known the nice guy from the cafe was hiding something. Him offering to pay for your coffee out of nowhere should have alerted you more. It&#39;s all messed up now because this man is a stranger moreso now than when you met. You don&#39;t recognize where the anger in his eyes came from, but you know that it&#39;s your fault. You believe him when he screams that you&#39;re the reason that everything is going wrong. (set: $stranger to $stranger + 2)
+As you think of crreative expletives you forget about being naive. You can&#39;t determine whether there were warnings from [[early in the relationship]] or if it&#39;s [[the issues that developed later]] that really should&#39;ve made you leave. </tw-passagedata><tw-passagedata pid="5" name="why didn&#39;t you listen to your mom&#39;s warnings of stranger danger?" tags="cement" position="1593,892.3333333333334" size="100,100">Your mother always told you as a child about stranger danger. You should&#39;ve known the nice guy from the cafe was hiding something. Him offering to pay for your coffee out of nowhere should have alerted you more. It&#39;s all messed up now because this man is a stranger moreso now than when you met. You don&#39;t recognize where the anger in his eyes came from, but you know that it&#39;s your fault. You believe him when he screams that you&#39;re the reason that everything is going wrong. (set: $stranger to $stranger + 2)
 {(if: $delete &lt; 0) [
 You regret your decisions and ask yourself [[why didn&#39;t you delete his number after?]]]} 
 
-Ugh, but is it even worth dwelling on or were there too many other issues that arose [[early in the relationship]] </tw-passagedata><tw-passagedata pid="6" name="the issues that developed later" tags="cement" position="901,1200.3333333333333" size="100,100">Maybe the first time you noticed there was an issue was later in the relationship. About five months after meeting, you were so infatuated and you decided to do what so many people in relationship fear: 
+Ugh, but is it even worth dwelling on or were there too many other issues that arose [[early in the relationship]] </tw-passagedata><tw-passagedata pid="6" name="the issues that developed later" tags="cement" position="899.3333333333334,1200.3333333333333" size="100,100">Maybe the first time you noticed there was an issue was later in the relationship. About five months after meeting, you were so infatuated and you decided to do what so many people in relationship fear: 
 Bring him home for Thanksgiving to meet your family. 
 
 You knew they would take a little to warm up to him, but how your sister immediately disliked him must&#39;ve been a world record. You thought she was looking down on you once again because she was in the perfect relationship. After years of her being the perfect daughter, you were tired of her treating you as though she was better- especially when it came to your relationship. 
 
 If only you had listened to her warnings because as much as you hate to admit it, she knew what was best for you. (set: $issue to $issue + 2)
+
 { (if: $early &lt; 1) [
-But maybe the problem started [[early in the relationship]], before all of this drama 
+But maybe the problem started [[early in the relationship]], before all of this drama
+
 ] } 
 You think about the issues he has with [[his family?]], but continued to ask [[why did you stay]] in the first place? </tw-passagedata><tw-passagedata pid="7" name="early in the relationship" tags="cement" position="1800,1205" size="100,100">Early on, you felt comfortable enough that you wanted him to meet your friends. You just went out for drinks one night, but it was terribly awkward. He barely spoke, but when he did he would make comments about you drinking or apologize for your &quot;stupid&quot; jokes that everyone but him thought were funny. Your friends, visibly uncomfortable, decided to cut drinks short and said they would see you later. When you get home you text them to apologize, saying that he was just stressed from work and that you hope you all can get together again soon. (set: $early to $early + 2)
 
@@ -131,7 +134,7 @@ He&#39;s not only closed off about his family, but also his friends. He said he 
 
 But is that worth dwelling on or do you get distracted of thinking about the first time he [[hit you]]? </tw-passagedata><tw-passagedata pid="9" name="hit you" tags="glass" position="1094,1599" size="100,100">He started hitting you after a year of dating. It came as a shock to you, and he immediately apologized after the first time. You don&#39;t even know what happened. One second you were showing him a picture of your coworkers and telling him you guys should try the restaurant they were at. Next thing you knew, he was grabbing your phone and throwing it against the wall  and slapping you across the face. 
 
-It all happened so fast and the look of regret in his eyes was sincere, or so you thought. He was just angry that you complained he wasn&#39;t enough for you, but when you try to explain that&#39;s not what you mean, he just storms away. 
+It all happened so fast and the look of regret in his eyes was sincere, or so you thought. He was just angry that you complained he wasn&#39;t enough for you, but when you try to explain that&#39;s not what you meant, he just storms away. 
 
 You didn&#39;t know what to do, but you also have no where to go. 
 
@@ -228,10 +231,12 @@ You can&#39;t even image what would happen if he laid a hand on one of you kids 
 
 &lt;img src=&quot;/twineimg/fist.jpg&quot; width=&quot;500&quot; height=&quot;300&quot; alt=&quot;mascara&quot;&gt;
 
-{(if: $emotion &lt; 1)[You connect he physical abuse to [[the emotional abuse]] that he has been practicing for many years now.]} 
+{(if: $emotion &lt; 1)[You connect he physical abuse to [[the emotional abuse]] that he has been practicing for many years now.
 
-{(if: $iso &lt; 1)[You also see the parallels between these threats and [[the isolating and blaming]] hes been doing for so long.]} 
+]} 
+{(if: $iso &lt; 1)[You also see the parallels between these threats and [[the isolating and blaming]] hes been doing for so long.
 
+]} 
 Or instead of dwelling on your own misfortunes do you turn to focus on what could happen to your [[children]]. </tw-passagedata><tw-passagedata pid="21" name="escalate" tags="beating" position="1352,2588" size="100,100">Your husband punches you while you&#39;re sitting in the kitchen. There is no shock anymore, you just feel numb. You hold back your tears and look away from the man you once loved only to see your oldest son at the top of the stair. There is a look of horror on his face that shakes you to your core. It&#39;s in that moment that you realize all the pain that this man has caused you and your family. You can no longer pretend. 
 
 Then the doubt creeps back in. You know that he&#39;s made mistakes, but you feel like you&#39;ll never survive without him for financial reasons. Maybe you can explain this situation to your children while still shielding them. You think that the good times out shine the bad, but for the past few years there haven&#39;t been any new good times. Young love cannot hide the truth of how toxic the relationship has become. You&#39;ve become withdrawn after years of isolations from friends and family especially due to the emotional and physical abuse you suffer from. 
@@ -256,7 +261,7 @@ You also fear how things when things [[escalate]] they could be harmed. </tw-pas
 
 To start, imagine you&#39;re [[sitting in your kitchen]]. 
 
-(set: $stranger to 0) (set: $early to 0) (set: $issue to 0) (set: $delete to 0)</tw-passagedata></tw-storydata>
+(set: $stranger to 0) (set: $early to 0) (set: $issue to 0) (set: $delete to 0) (set: $charm to 0) </tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
