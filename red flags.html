@@ -31,6 +31,10 @@ body, tw-story
   font-family: 'Old Standard TT', serif;
 }
 
+h2 { 
+  text-align: center;
+} 
+
 tw-link.visited {
 color:#000000;
 }
@@ -57,7 +61,7 @@ tw-story[tags~="beating"]{
 tw-story[tags~="glass"]{
  background-image:url("/twineimg/brokenglass.png");
  background-size:cover;
-} </style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="sitting in your kitchen" tags="beating" position="1396,596" size="100,100">Sitting in your kitchen you don&#39;t know how you got to this point. 
+} </style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="sitting in your kitchen" tags="beating" position="1396,597.6666666666666" size="100,100">Sitting in your kitchen you don&#39;t know how you got to this point. 
 
 Constantly looking over your shoulder, covering your bruises with heavy makeup, but you&#39;re still putting on a brave face. 
 
@@ -68,26 +72,26 @@ Your husband comes home drunk looking for a fight. Your children know to go hide
 As he cocks his arm, a memory flashes before your eyes: 
 
 [[how you got here]] 
-</tw-passagedata><tw-passagedata pid="2" name="how you got here" tags="cement" position="1396.6666666666667,765" size="100,100">Think back to when you met him in a coffee shop. You had just graduated from college and split from your long-term boyfriend due to finding jobs in different cities. Moving was a big step for you, and you didn&#39;t know many people. The few friends you have from school and work ensured that your social scene was exciting. 
+</tw-passagedata><tw-passagedata pid="2" name="how you got here" tags="cement" position="1395,765" size="100,100">Think back to when you met him in a coffee shop. You had just graduated from college and split from your long-term boyfriend. Moving was a big step for you, and you didn&#39;t know many people. You only had a few friends from school and work. 
 
 &lt;img src=&quot;coffee.jpg&quot; width=&quot;500&quot; height=&quot;300&quot; alt=&quot;mascara&quot;&gt;
 
-You met him unexpectedly while you were vulnerable and looking for validation. He approached you with a blueberry muffin he said the cafe was known for and you chatted for a while. The attention was refreshing. After the encounter, you still continue to text and flirt. 
+You met him unexpectedly when he bought you one of the cafe&#39;s famous blueberry muffins. You started to chat and his attention was validating. After the encounter, you still continue to text and flirt. 
 
-Now you find yourself deciding what to ask yourself next: 
+Now you find yourself aking where you went wrong next: 
 {
- (live: 1s)[
+ (live: 2s)[
     (stop:)
     [[why didn&#39;t you delete his number after?]]
  ]
  }
  {
-  (live: 1.5s) [ 
+  (live: 2.5s) [ 
  	(stop:) 
 	[[why didn&#39;t you know his charm was too good to be true?]] 
 ] } 
 { 
-(live: 2s) [
+(live: 3s) [
     [[why didn&#39;t you listen to your mom&#39;s warnings of stranger danger?]] 
 ] }
 </tw-passagedata><tw-passagedata pid="3" name="why didn&#39;t you delete his number after?" tags="cement" position="1103,901.6666666666666" size="100,100">He was so charming at first. Complementing your eyes, hair, and outfits- something your ex had never done. It was refreshing to have a man seem as thought he was actually paying attention to you. Sure he barely offered any information about himself, but it didn&#39;t matter because you could talk about yourself for hours. You thought it was endearing rather than an issue since deflecting your questions was so easy for him. (set: $delete to $delete + 2) 
@@ -98,29 +102,31 @@ He kept offering to take you out and how could you begin to say no?
 
 ]} 
 Or do you forgive yourself for being a heartbroken girl looking for attention and turn to [[the issues that developed later]] 
-</tw-passagedata><tw-passagedata pid="4" name="why didn&#39;t you know his charm was too good to be true?" tags="cement" position="1357.6666666666667,1038" size="100,100">He had all the same interests as you and he was employeed. There were no flaws! It turned out he didn&#39;t work more than five blocks away which made coffee and lunch dates convenient. You saw his passion talking about his job and how he had a plan for how to be promoted through the company for more authority. It was charming to see a man with such drive. (set: $charm to $charm + 2)
+</tw-passagedata><tw-passagedata pid="4" name="why didn&#39;t you know his charm was too good to be true?" tags="cement" position="1357.6666666666667,1038" size="100,100">He had all the same interests as you and he was employeed. There were no flaws! On your dates you saw his passion for his company where he thought he was due soon for a promotion. It was riveting to see a man with such drive. (set: $charm to $charm + 2)
 
-You think now about how that passion was a facade for his constant need to amass more control over the various aspects of his life and yours. 
+You think now about how that passion was a facade for his constant need for control over the various aspects of his life and yours. 
 {(if: $stranger &lt; 1)  [
+
 You curse internally asking: [[why didn&#39;t you listen to your mom&#39;s warnings of stranger danger?]] 
 ] } 
 
-As you think of crreative expletives you forget about being naive. You can&#39;t determine whether there were warnings from [[early in the relationship]] or if it&#39;s [[the issues that developed later]] that really should&#39;ve made you leave. </tw-passagedata><tw-passagedata pid="5" name="why didn&#39;t you listen to your mom&#39;s warnings of stranger danger?" tags="cement" position="1593,892.3333333333334" size="100,100">Your mother always told you as a child about stranger danger. You should&#39;ve known the nice guy from the cafe was hiding something. Him offering to pay for your coffee out of nowhere should have alerted you more. It&#39;s all messed up now because this man is a stranger moreso now than when you met. You don&#39;t recognize where the anger in his eyes came from, but you know that it&#39;s your fault. You believe him when he screams that you&#39;re the reason that everything is going wrong. (set: $stranger to $stranger + 2)
+You know you were naive, but you can&#39;t determine whether there were warnings from [[early in the relationship]] or if it&#39;s [[the issues that developed later]] that really should&#39;ve made you leave. </tw-passagedata><tw-passagedata pid="5" name="why didn&#39;t you listen to your mom&#39;s warnings of stranger danger?" tags="cement" position="1593,892.3333333333334" size="100,100">Your mother always told you as a child about stranger danger. You should&#39;ve known the nice guy from the cafe was hiding something. It&#39;s all messed up now because this man is a stranger moreso now than when you met. You don&#39;t recognize the anger in his eyes, but you know that it&#39;s your fault. You believe him when he screams that you&#39;re the reason that everything is going wrong. (set: $stranger to $stranger + 2)
 {(if: $delete &lt; 0) [
+
 You regret your decisions and ask yourself [[why didn&#39;t you delete his number after?]]]} 
 
-Ugh, but is it even worth dwelling on or were there too many other issues that arose [[early in the relationship]] </tw-passagedata><tw-passagedata pid="6" name="the issues that developed later" tags="cement" position="899.3333333333334,1200.3333333333333" size="100,100">Maybe the first time you noticed there was an issue was later in the relationship. About five months after meeting, you were so infatuated and you decided to do what so many people in relationship fear: 
+Ugh, but is it even worth dwelling on or were there too many other issues that arose [[early in the relationship]] </tw-passagedata><tw-passagedata pid="6" name="the issues that developed later" tags="cement" position="899.3333333333334,1200.3333333333333" size="100,100">Maybe the first time you noticed there was an issue was about five months after meeting. You were so infatuated and you decided to do what so many people in relationship fear: 
 Bring him home for Thanksgiving to meet your family. 
 
-You knew they would take a little to warm up to him, but how your sister immediately disliked him must&#39;ve been a world record. You thought she was looking down on you once again because she was in the perfect relationship. After years of her being the perfect daughter, you were tired of her treating you as though she was better- especially when it came to your relationship. 
+You knew they would take a little to warm up to him, how your sister immediately disliked him. You thought she was looking down on you once again because she was in the perfect relationship. She tried to tell you she thought he was bad news, but you brushed her off angrily. 
 
 If only you had listened to her warnings because as much as you hate to admit it, she knew what was best for you. (set: $issue to $issue + 2)
-
 { (if: $early &lt; 1) [
-But maybe the problem started [[early in the relationship]], before all of this drama
 
+But maybe the problem started [[early in the relationship]], before all of this drama
 ] } 
-You think about the issues he has with [[his family?]], but continued to ask [[why did you stay]] in the first place? </tw-passagedata><tw-passagedata pid="7" name="early in the relationship" tags="cement" position="1800,1205" size="100,100">Early on, you felt comfortable enough that you wanted him to meet your friends. You just went out for drinks one night, but it was terribly awkward. He barely spoke, but when he did he would make comments about you drinking or apologize for your &quot;stupid&quot; jokes that everyone but him thought were funny. Your friends, visibly uncomfortable, decided to cut drinks short and said they would see you later. When you get home you text them to apologize, saying that he was just stressed from work and that you hope you all can get together again soon. (set: $early to $early + 2)
+
+You think about the issues he has with [[his family?]], but continued to ask [[why did you stay]] in the first place? </tw-passagedata><tw-passagedata pid="7" name="early in the relationship" tags="cement" position="1800,1205" size="100,100">Early on, you felt comfortable enough that you wanted him to meet your friends. You just went out for drinks one night, but it was terribly awkward. He kept making comments about you drinking or apologize for your &quot;stupid&quot; jokes that everyone but him thought were funny. He made your friends uncomfortable so when you get home you text them to apologize. You said that he was just stressed from work and that you hope you all can get together again soon. (set: $early to $early + 2)
 
 Sadly, this was only the start. You think back to why you stopped reaching out to them, but remeber how controlling he would get when you wanted to go out with them. He would scream about you wanting to leave him just to have a drink with people who he said didn&#39;t care about you. 
 
@@ -128,15 +134,15 @@ Sadly, this was only the start. You think back to why you stopped reaching out t
 
 { (if: $issue &lt; 1) [But was this what caused the main issue in your relationship or was it [[the issues that developed later]]?] } 
 
-Or instead did the issues really start the first time he [[hit you]]? </tw-passagedata><tw-passagedata pid="8" name="his family?" tags="cement" position="799,1501" size="100,100">You&#39;ve only met them a couple times, but his brother was always very distant you don&#39;t even know where he lives now. His parents are basically out of the picture due to a messy divorce and minimal desire to attend family events. Every once in a while you guys recieve a card, but it&#39;s rare. 
+Or instead did the issues really start the first time he [[hit you]]? </tw-passagedata><tw-passagedata pid="8" name="his family?" tags="cement" position="799,1501" size="100,100">You&#39;ve only met them a couple times, but his brother was always very distant and his parents are out of the picture due to a messy divorce. Every once in a while you guys recieve a card, but it&#39;s rare. 
 
-He&#39;s not only closed off about his family, but also his friends. He said he was just focused on school during college and you never feel like pressing him on it. 
+He&#39;s not only closed off about his family, but also his friends. He said he was just focused on school during college and you never dared to press him on it. 
 
-But is that worth dwelling on or do you get distracted of thinking about the first time he [[hit you]]? </tw-passagedata><tw-passagedata pid="9" name="hit you" tags="glass" position="1094,1599" size="100,100">He started hitting you after a year of dating. It came as a shock to you, and he immediately apologized after the first time. You don&#39;t even know what happened. One second you were showing him a picture of your coworkers and telling him you guys should try the restaurant they were at. Next thing you knew, he was grabbing your phone and throwing it against the wall  and slapping you across the face. 
+But is that worth dwelling on or do you get distracted of thinking about the first time he [[hit you]]? </tw-passagedata><tw-passagedata pid="9" name="hit you" tags="glass" position="1094,1599" size="100,100">He started hitting you after a year of dating. It came as a shock to you, and the first time he immediately apologized. You don&#39;t even know what happened. One second you were showing him a picture of your college friends on Instagram. Next thing you knew he had grabbed your phone, thrown it against the wall, and slapped you across the face. 
 
-It all happened so fast and the look of regret in his eyes was sincere, or so you thought. He was just angry that you complained he wasn&#39;t enough for you, but when you try to explain that&#39;s not what you meant, he just storms away. 
+It all happened so fast and the look of regret in his eyes was sincere, or so you thought. He was just angry that you complained he wasn&#39;t fun enough for you, but when you try to explain that&#39;s not what you meant, he just storms away. 
 
-You didn&#39;t know what to do, but you also have no where to go. 
+You didn&#39;t know what to do, but you also had no where to go. 
 
 Instead of leaving the apartment decide to forgive him because of the life you&#39;ve built together. 
 
@@ -150,17 +156,17 @@ You don&#39;t know but it doesn&#39;t matter because you [[lost yourself]] after
 
 Well that&#39;s a loaded questions. He promised you the world and you soon realized that whether you wanted to be or not, you were in love with him. 
 
-You settled down, started a family, and you got the home with a white picket fence is a quite, non-social neighborhood. 
+You settled down, started a family, and you got the home with a white picket fence. 
 
-You know that after you [[quit your job]] and started [[having children]] things would change even more, but nothing could have prepared you for this. </tw-passagedata><tw-passagedata pid="11" name="lost yourself" tags="cement" position="1511,1402" size="100,100">You realize that distancing youself from your friends and family was not in your best interest, but he always told you they were holding you back. He said they would never love you the way he did and that they could never provide what you needed. You hung onto his every word because he was such a constant voice in your head and so passionate about his opinions. Especially after the incident with your sister that first time, you agreed it was better to put some distance between you and your family because he was uncomfortable. 
+You know that after you [[quit your job]] and started [[having children]] things would change even more, but nothing could have prepared you for this. </tw-passagedata><tw-passagedata pid="11" name="lost yourself" tags="cement" position="1511,1402" size="100,100">You realize that distancing youself from your friends and family was not actually in your best interest, but he always told you they were holding you back. He said they would never love you the way he did. You hung onto his every word. At some points, you even agreed with him because it was so convincing.  
 
-You&#39;ve lost yourself and you fear you&#39;re too far gone. You lament about the aspirations you had as a [[young girl]] when you wanted to much out of life. 
+You&#39;ve lost yourself and you fear you&#39;re too far gone. You lament about the aspirations you had as a [[young girl]] when you wanted too much out of life. 
 
-But sometimes thinking about your days as an innocent girl upsets you and instead you turn to pity, continuing to make [[excuses]]. </tw-passagedata><tw-passagedata pid="12" name="notes" tags="" position="1805,500" size="100,100">there is a loop in the first 3 options that could create a user error, infinite loop </tw-passagedata><tw-passagedata pid="13" name="young girl" tags="cement" position="1801,1599" size="100,100">As a young child and even into your teens, you were always what you mother would refer to as &quot;boy crazy&quot;. Always trying to get their attention whether it was on the playground or in the hallways. 
+But sometimes thinking about your days as an innocent girl upsets you and instead you turn to denial, continuing to make [[excuses]]. </tw-passagedata><tw-passagedata pid="12" name="notes" tags="" position="1805,500" size="100,100">there is a loop in the first 3 options that could create a user error, infinite loop </tw-passagedata><tw-passagedata pid="13" name="young girl" tags="cement" position="1801,1600.6666666666667" size="100,100">As a young child and into your teens, you were always &quot;boy crazy&quot;. Always trying to get their attention whether it was on the playground or in the hallways. 
 
 &lt;img src=&quot;/twineimg/playground.jpg&quot; width=&quot;500&quot; height=&quot;300&quot; alt=&quot;playground&quot;&gt;
 
-Always looking for a new man in your life whether they wanted you back or not. 
+Always wanting a man in your life whether they wanted you back or not. 
 
 You always dreamed of being a mother and [[having children]] of your own, but does that mean you deserve this treatment? 
 
@@ -169,13 +175,13 @@ But as you&#39;re frozen in this moment, you start to wonder if this love is wha
 Missing plans with friends because he didn&#39;t want to go out. 
 Staying at home during he holidays because he was uncomfortable around you sister. 
 
-You fear what you will lose if stop. You have your children and this life that you two have built together. So intertwines socially and financially as well making it hard to untangle from the dangerous web you have somehow let youself become trapped in. 
+Now, you have your children and this life that you two have built together. You&#39;re so intertwined, socially and financially, making it hard to untangle from the dangerous web he spun and you walked right into. 
 
 Did you honestly think he would live up to the expectations you set for yourself as a [[young girl]]? 
 
-So many compromises and yet you still find youself asking: [[why did you stay]]? </tw-passagedata><tw-passagedata pid="15" name="quit your job" tags="cement" position="1304,1800.3333333333333" size="100,100">When you guys moved in together, he wanted to start a life quickly and suggested you quit your job. It took a while to convince you, but soon after he started hitting you he was relocated for work. Since you had moved out a way from the city, you decided that focusing on the relationship was not a bad idea. 
+So many excuses and yet you still find youself asking: [[why did you stay]]? </tw-passagedata><tw-passagedata pid="15" name="quit your job" tags="cement" position="1304,1800.3333333333333" size="100,100">When you guys moved in together, he wanted to start a life quickly and suggested you quit your job. Since you had moved out a way from the city, you decided that focusing on the relationship was not a bad idea. 
 
-You lost contact with past coworkers who were really the last few acquaintances you had left in your life. It was hard to leave work, but he convinced you that it was the only logical move to have the time to put into taking your relationship to the next step. 
+You lost contact with past coworkers who were really the last few acquaintances you had left in your life. He convinced you that it was the only logical move to have the time to put into taking your relationship to the next step. 
 
 Now he holds this over your head because you lack the financial support to leave him and take care of your children. On the rare occasion you threaten to leave him, he always screams, &quot;Where would you go? You have no money! You have nothing without me!&quot; You quickly see you have no control. 
 
@@ -185,28 +191,28 @@ You want your marriage to work because of you want them to love their father and
 
 You&#39;re in a hard place because you [[quit your job]] in order to raise your kids which puts you in a vulnerable position being financially dependent. 
 
-You try to put on a brave face, but then you realize that you don&#39;t have the [[power]] to leave him even though you own children might be in danger </tw-passagedata><tw-passagedata pid="17" name="power" tags="cement" position="1496,1901" size="100,100">Power. What so many desire and what your husband has sought after his whole life. You realize that the authority he asserts over you is what make him feel in contol. Belittling you, hitting you, and threatening you are when  make him feel most like a man. 
+You try to put on a brave face, but then you realize that you don&#39;t have the [[power]] to leave him even though you own children might be in danger </tw-passagedata><tw-passagedata pid="17" name="power" tags="cement" position="1496,1901" size="100,100">Power. Something your husband has sought after his whole life. You realize that the authority he asserts over you is what make him feel in contol. Belittling you, hitting you, and threatening you are what make him feel most like a man. 
 
-You don&#39;t know, and you probably never will, if it was something that was prevalent in his childhood or if the alcohol drives him to this abusive behavior. It pains you to see the situation that you keep you children in and the aggression in the household. 
+It pains you to see the situation that you keep you children in and the aggression in the household. 
 
 You don&#39;t know which case is the worst: 
-{ (live: 1.5s) [ 
+{ (live: 2s) [ 
  	(stop:) 
 	[[the emotional abuse]] 
 ]} 
-{ (live: 2s) [ 
+{ (live: 2.5s) [ 
  	(stop:) 
 	[[the isolating and blaming]] 
 
 ]} 
-{ (live: 2.5s) [ 
+{ (live: 3s) [ 
  	(stop:) 
 	[[the threats against you and your children]] 
 ]} 
 
-(set: $emotion to 0) (set: $threat to 0) (set: $iso to 0) </tw-passagedata><tw-passagedata pid="18" name="the emotional abuse" tags="cement" position="949,2135" size="100,100">The emotional abuse is arguable worse because it sticks with you even moreso than the physical damage when he&#39;s not around. It the constant, lingering paranoia when he&#39;s at work or out drinking.
+(set: $emotion to 0) (set: $threat to 0) (set: $iso to 0) </tw-passagedata><tw-passagedata pid="18" name="the emotional abuse" tags="cement" position="949,2135" size="100,100">The emotional abuse is arguably worse because it sticks with you even when he&#39;s not around. It the constant, lingering paranoia when he&#39;s at work or out drinking. You have an extreme lack of self-confidence and are consumed with guilt over things he&#39;s said are your fault. 
 
-He constantly humiliates you in public and around other other parents, he puts you down when you make small mistakes, and he always attacks your intelligence making your feel inferior. (set: $emotion to $emotion + 2) 
+He constantly humiliates you in public and around other parents. He puts you down when you make small mistakes, and he always attacks your intelligence making your feel inferior. (set: $emotion to $emotion + 2) 
 
 &lt;img src=&quot;/twineimg/emotion.jpeg&quot; width=&quot;500&quot; height=&quot;300&quot; alt=&quot;emotion&quot;&gt;
 
@@ -215,7 +221,7 @@ He constantly humiliates you in public and around other other parents, he puts y
 {(if: $threat &lt;1) [The emotion turmoil you&#39;re is even worse due to [[the threats against you and your children]].]} 
 
 It could be time to see how things [[escalate]] rather than dwelling on the abuse. </tw-passagedata><tw-passagedata pid="19" name="the isolating and blaming" tags="cement" position="1415,2290" size="100,100">In hindsight, you can see that he was isolating you from those who would&#39;ve told you that this was an unhealthy relationship. At the time you were so infatuated with the idea of finding your epic love that you didn&#39;t see how controlling and harsh he was. 
-What really diminished you was the fact that he had convinced you that the abuse was your fault. That you deserved all of the physical and emotional trauma that he exerted on you. (set: $iso to $iso + 2)
+What really diminished you was the fact that he had convinced you that the abuse was your fault. Then turning around and denying that the abuse ever happened. (set: $iso to $iso + 2)
 
 &lt;img src=&quot;/twineimg/locked.jpg&quot; width=&quot;500&quot; height=&quot;300&quot; alt=&quot;mascara&quot;&gt;
 {(if: $emotion &lt; 1) [
@@ -249,17 +255,18 @@ After they intervene, you hold your children tight for a while then decide to ca
 
 Exiting an abusive relationship is hard for victims who see the domestic abuse as their fault. If you are experiencing cases of domestic violence don&#39;t hesitate to call the National Domestic Violence Hotline at 1.800.799.SAFE (7233) 
 
-The end. </tw-passagedata><tw-passagedata pid="22" name="children" tags="cement" position="1890,2250" size="100,100">Your children are smart and you&#39;ve always made sure to put them first. You go to all their school events and sports games to be a constant presence in their lives. Yet, you know that letting them continue to live in the home that you have kept them in will only result in them getting hurt. They deserve to be worrying about the math test they have in second period or the big homecoming game- not about whether or not their mother is going to be hit when their father comes home wasted. 
+The end. </tw-passagedata><tw-passagedata pid="22" name="children" tags="cement" position="1890,2250" size="100,100">Your children are smart and you&#39;ve always made sure to put them first. You go to all their school events and sports games. Yet, you know that letting them continue to live in this home will only result in them getting hurt. They shouldn&#39;t be worried about their mother being beaten when their father comes home. 
 
 You realize that your children have suffered as a result of you being abused. They are in constant fear of their father and they don&#39;t understand why he treats you the way he does. 
 
 &lt;img src=&quot;/twineimg/handsreach.jpg&quot; width=&quot;500&quot; height=&quot;300&quot; alt=&quot;mascara&quot;&gt;
 
-You think about how {(if: $iso &lt; 1) [ [[the isolating and blaming]] and]}{(if: $emotion &lt; 1) [ [[the emotional abuse]]] (else:) [ the abuse]} he projects onto you has also impacted them.]
+You worry they have been impacted by {(if: $iso &lt; 1) [ [[the isolating and blaming]] and]}{(if: $emotion &lt; 1) [ [[the emotional abuse]]] (else:) [ the abuse]} that he projects onto you.
 
-You also fear how they could be harmed when things [[escalate]]. </tw-passagedata><tw-passagedata pid="23" name="Welcome to Red Flags" tags="cement" position="1399,402" size="100,100">Dive into this story of a woman who finds herself trapped in an abusive relationship. It is the tale of how ignoring early signs of red flags can lead to toxicity in relationships. Eventually, this can develop into abusive tendencies.
+You also fear how they could be harmed when things [[escalate]]. </tw-passagedata><tw-passagedata pid="23" name="Welcome to Red Flags" tags="cement" position="1400.6666666666667,402" size="100,100">&lt;h2&gt; Welcome to Red Flags &lt;/h2&gt; 
+&lt;div style = text-align:center&gt; This is an example of how ignoring early signs of red flags can lead to toxicity in relationships. Eventually, this can develop into abusive tendencies.
 
-To start, imagine you&#39;re [[sitting in your kitchen]]. 
+To start, imagine you&#39;re [[sitting in your kitchen]]. &lt;/div&gt; 
 
 (set: $stranger to 0) (set: $early to 0) (set: $issue to 0) (set: $delete to 0) (set: $charm to 0) </tw-passagedata></tw-storydata>
 
